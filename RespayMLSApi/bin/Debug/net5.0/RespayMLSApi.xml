@@ -1,0 +1,470 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RespayMLSApi</name>
+    </assembly>
+    <members>
+        <member name="M:RespayMLSApi.Controllers.currencyController.Save(RespayMLS.Core.DTOs.CurrencyDTO)">
+            <summary>
+            Add Currency
+            </summary>
+            <param name="currencyDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.currencyController.GetAllCurrency">
+            <summary>
+            Get All Currencies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.currencyController.GetCurrency(System.Int32)">
+            <summary>
+            Get Currency By Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.currencyController.UpdateCurrency(System.Int32,RespayMLS.Core.DTOs.CurrencyDTO)">
+            <summary>
+            Update Currency
+            </summary>
+            <param name="Id"></param>
+            <param name="currencyDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.currencyController.DeleteCurrency(System.Int32)">
+            <summary>
+            Delete Currency
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.frequenciesController.Save(RespayMLS.Core.DTOs.FrequencyDTO)">
+            <summary>
+            Add Frequency
+            </summary>
+            <param name="frequencyDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.frequenciesController.GetAllFrequencies">
+            <summary>
+            Get All Frequencies
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.frequenciesController.GetFrequency(System.Int32)">
+            <summary>
+            Get Frequency By Id
+            </summary>
+            <param name="frquencyId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.frequenciesController.UpdateFrequency(System.Int32,RespayMLS.Core.DTOs.FrequencyDTO)">
+            <summary>
+            Update Frequency
+            </summary>
+            <param name="frquencyId"></param>
+            <param name="frequencyDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.frequenciesController.DeleteFrequency(System.Int32)">
+            <summary>
+            Delete Frequency
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemFeatureController.Save(RespayMLS.Core.DTOs.ItemFeatureDTO)">
+            <summary>
+            Add Item Feature
+            </summary>
+            <param name="itemFeatureDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemFeatureController.GetAllItemFeatures">
+            <summary>
+            Get All Item Features
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemFeatureController.GetItemFeature(System.Int32)">
+            <summary>
+            Get Item Feature By Id
+            </summary>
+            <param name="itemFeatureId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemFeatureController.UpdateItemFeature(System.Int32,RespayMLS.Core.DTOs.ItemFeatureDTO)">
+            <summary>
+            Update Item Feature
+            </summary>
+            <param name="Id"></param>
+            <param name="itemFeatureDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemFeatureController.DeleteItemFeature(System.Int32)">
+            <summary>
+            Delete Item Feature
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemSubFeatureController.Save(RespayMLS.Core.DTOs.ItemSubFeatureDTO)">
+            <summary>
+            Add Item Sub-Feature
+            </summary>
+            <param name="itemSubFeatureDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemSubFeatureController.GetAllItemSubFeatures">
+            <summary>
+            Get All Item Sub-Features
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemSubFeatureController.GetItemFeature(System.Int32)">
+            <summary>
+            Get Item Sub-Feature By Id
+            </summary>
+            <param name="itemSubFeatureId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemSubFeatureController.UpdateItemSubFeature(System.Int32,RespayMLS.Core.DTOs.ItemSubFeatureDTO)">
+            <summary>
+            Update Item Sub-Feature
+            </summary>
+            <param name="Id"></param>
+            <param name="itemSubFeatureDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.ItemSubFeatureController.DeleteItemFeature(System.Int32)">
+            <summary>
+            Delete Item Sub-Feature
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemSubtypeController.Save(RespayMLS.Core.DTOs.ItemSubTypeDTO)">
+            <summary>
+            Add Item Subtype
+            </summary>
+            <param name="itemSubTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemSubtypeController.GetAllISubtemTypes">
+            <summary>
+            Get All Item Subtypes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemSubtypeController.GetItemType(System.Int32)">
+            <summary>
+            Get Item Subtype by Id
+            </summary>
+            <param name="itemSubTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemSubtypeController.UpdateItemType(System.Int32,RespayMLS.Core.DTOs.ItemSubTypeDTO)">
+            <summary>
+            Update Item Subtype
+            </summary>
+            <param name="Id"></param>
+            <param name="itemSubTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemSubtypeController.DeleteItemSubType(System.Int32)">
+            <summary>
+            Delete Item Subtype
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemTypeController.Save(RespayMLS.Core.DTOs.ItemTypeDTO)">
+            <summary>
+            Add Item Type
+            </summary>
+            <param name="itemTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemTypeController.GetAllItemTypes">
+            <summary>
+            Get All Item Types
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemTypeController.GetItemType(System.Int32)">
+            <summary>
+            Get Item Type by Id
+            </summary>
+            <param name="itemTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemTypeController.UpdateItemType(System.Int32,RespayMLS.Core.DTOs.ItemTypeDTO)">
+            <summary>
+            Update Item Type
+            </summary>
+            <param name="Id"></param>
+            <param name="itemTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.itemTypeController.DeleteItemType(System.Int32)">
+            <summary>
+            Delete Item Type
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.listingtypesController.Save(RespayMLS.Core.DTOs.ListingTypeDTO)">
+            <summary>
+            Add Lisiting Type
+            </summary>
+            <param name="listingTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.listingtypesController.GetAllListingTypes">
+            <summary>
+            Get All Listing Type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.listingtypesController.GetListingType(System.Int32)">
+            <summary>
+            Get Lisiting Type By Id
+            </summary>
+            <param name="listingTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.listingtypesController.UpdateListingType(System.Int32,RespayMLS.Core.DTOs.ListingTypeDTO)">
+            <summary>
+            Update Lisiting Type
+            </summary>
+            <param name="listingTypeId"></param>
+            <param name="listingTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.listingtypesController.Delete(System.Int32)">
+            <summary>
+            Delete Listing Type
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.paymentmethodController.Save(RespayMLS.Core.DTOs.PaymentMethodDTO)">
+            <summary>
+            Add Payment Method
+            </summary>
+            <param name="paymentMethodDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.paymentmethodController.GetAllPaymentMethod">
+            <summary>
+            Get All Payment Method
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.paymentmethodController.GetPaymentMethod(System.Int32)">
+            <summary>
+            Get Payment Method By Id
+            </summary>
+            <param name="paymentMethodId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.paymentmethodController.UpdatePaymentMethod(System.Int32,RespayMLS.Core.DTOs.PaymentMethodDTO)">
+            <summary>
+            Update Payment Method
+            </summary>
+            <param name="paymentMethodId"></param>
+            <param name="paymentMethodDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.paymentmethodController.DeletePaymentMethod(System.Int32)">
+            <summary>
+            Delete Payment Method
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.plantypeController.Save(RespayMLS.Core.DTOs.PlanTypeDTO)">
+            <summary>
+            Add Plan Type
+            </summary>
+            <param name="planTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.plantypeController.GetAllPlanType">
+            <summary>
+            Get All Plan Type
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.plantypeController.GetPlanType(System.Int32)">
+            <summary>
+            Get Plan Type By Id
+            </summary>
+            <param name="planTypeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.plantypeController.UpdatePlanType(System.Int32,RespayMLS.Core.DTOs.PlanTypeDTO)">
+            <summary>
+            Update Plan Type
+            </summary>
+            <param name="planTypeId"></param>
+            <param name="planTypeDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.plantypeController.DeletePlanType(System.Int32)">
+            <summary>
+            Delete Plan Type
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productcategoriesController.Save(RespayMLS.Core.DTOs.ProductCategoryDTO)">
+            <summary>
+            Add Product Category
+            </summary>
+            <param name="productCategoryDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productcategoriesController.GetAllProductCategory">
+            <summary>
+            Get All Product Categories
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productcategoriesController.GetProductCategory(System.Int32)">
+            <summary>
+            Get Product Category By Id
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productcategoriesController.UpdateCategory(System.Int32,RespayMLS.Core.DTOs.ProductCategoryDTO)">
+            <summary>
+            Update Product Category
+            </summary>
+            <param name="Id"></param>
+            <param name="productCategoryDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productcategoriesController.DeleteProductCategory(System.Int32)">
+            <summary>
+            Delete Product Category
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productController.Save(RespayMLS.Core.DTOs.ProductDTO)">
+            <summary>
+            Add Product
+            </summary>
+            <param name="productDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productController.GetAllProduct">
+            <summary>
+            Get ALl Products
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productController.GetProduct(System.Int32)">
+            <summary>
+            Get Product By Id
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productController.UpdateProduct(System.Int32,RespayMLS.Core.DTOs.ProductDTO)">
+            <summary>
+            Update Product
+            </summary>
+            <param name="productId"></param>
+            <param name="productDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.productController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete Product
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.rolesController.Save(RespayMLS.Core.DTOs.RoleDTO)">
+            <summary>
+            Add Role
+            </summary>
+            <param name="roleDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.rolesController.GetAllRole">
+            <summary>
+            Get All Roles
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.rolesController.GetRole(System.Int32)">
+            <summary>
+            Get Role By Id
+            </summary>
+            <param name="roleId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.rolesController.UpdateRole(System.Int32,RespayMLS.Core.DTOs.RoleDTO)">
+            <summary>
+            Update Role
+            </summary>
+            <param name="roleId"></param>
+            <param name="roleDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.rolesController.DeleteRole(System.Int32)">
+            <summary>
+            Delete Role
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.Save(RespayMLS.Core.DTOs.SectorDTO)">
+            <summary>
+            Add Sector
+            </summary>
+            <param name="sectorDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.GetAllSector">
+            <summary>
+            Get All Sector
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.GetSector(System.Int32)">
+            <summary>
+            Get Sector By Id
+            </summary>
+            <param name="sectorId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.UpdateSector(System.Int32,RespayMLS.Core.DTOs.SectorDTO)">
+            <summary>
+            Update Sector
+            </summary>
+            <param name="sectorId"></param>
+            <param name="sectorDTO"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.DeleteSector(System.Int32)">
+            <summary>
+            Delete Sector
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:RespayMLSApi.Controllers.sectorsController.GetItemTypes(System.Int32)">
+            <summary>
+            Get Item Types By SectorId
+            </summary>
+            <param name="sectorId"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

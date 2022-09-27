@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cRrDU7/vGYMdGtTaf9cMJsv+h7rDpfcDDbPfnF/Q+7xHa/ftrOwIcxnc7xf7h+WLsUpVP3camngKJBHHDqjHUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Dev-PC\\source\\repos\\RespayMLSApi\\RespayMLS.Core\\RespayMLS.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dev-PC\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Dev-PC\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
